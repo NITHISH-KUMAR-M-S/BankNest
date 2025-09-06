@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>SignUp Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .container {
+            width: 350px;
+            margin: auto;
+        }
+        fieldset {
+            padding: 20px;
+        }
+        input, button {
+            width: 100%;
+            padding: 8px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Sign Up</h1>
+        <form action="SignUp" method="post">
+            <fieldset>
+                <legend>Sign Up</legend>
+                
+                <label>Full Name:</label>
+                <input type="text" name="fullname" placeholder="Enter your full name" required>
+                
+                <label>Email:</label>
+                <input type="email" name="email" placeholder="Enter your email" required>
+                
+                <label>Phone No.:</label>
+                <input type="tel" name="phone" placeholder="Enter phone number" required pattern="[0-9]{10}">
+                
+                <label>Initial Balance:</label>
+                <input type="number" name="balance" placeholder="Enter balance" required>
+                
+                <label>Password:</label>
+                <input type="password" name="password" placeholder="Enter password" required>
+                
+                <button type="submit">Sign Up</button>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>

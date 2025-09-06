@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .container {
+            width: 300px;
+            margin: auto;
+        }
+        fieldset {
+            padding: 20px;
+        }
+        input, button {
+            width: 100%;
+            padding: 8px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Login</h1>
+        <form action="Login" method="post">
+            <fieldset>
+                <legend>Login</legend>
+                <label>Email:</label>
+                <input type="email" name="email" placeholder="Enter your email" required>
+                
+                <label>Password:</label>
+                <input type="password" name="password" placeholder="Enter your password" required>
+                
+                <button type="submit">Login</button>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>

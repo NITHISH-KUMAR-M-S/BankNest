@@ -1,99 +1,114 @@
-🚀 BankNest – Mini Banking Web App 💻🏦
+# 🚀 BankNest – Mini Banking Web App 💻🏦
 
-BankNest is a basic banking web application built using Java (JSP, Servlets, JDBC, MVC).
-It was developed as part of my Java Full Stack training at Pentagon Space to practice real-world full-stack concepts.
+BankNest is a basic banking web application built using Java (JSP, Servlets, JDBC, MVC). It was developed as part of my Java Full Stack training at Pentagon Space to practice real-world full-stack concepts.
 
-🛠️ Features
+---
 
-🔑 User Authentication – Sign Up / Login
+## ✨ Features
 
-💰 Transactions – Deposit & Withdraw money
+- **User Authentication** – Sign Up / Login
+- **Transactions** – Deposit & Withdraw money
+- **View Balance** – Check account balance
+- **Profile Management** – Update user details
+- **Transaction History** – Track deposits & withdrawals
 
-👀 View Balance – Check account balance
+---
 
-📝 Profile Management – Update user details
+## 🛠 Tech Stack
 
-📜 Transaction History – Track deposits & withdrawals
+- **Frontend:** JSP, HTML, CSS
+- **Backend:** Java Servlets (Java EE)
+- **Database:** MySQL
+- **Architecture:** MVC
 
-🔧 Tech Stack
+---
 
-Frontend: JSP, HTML, CSS
+## 🚀 Getting Started
 
-Backend: Java Servlets (Java EE)
+### Prerequisites
 
-Architecture: MVC Pattern
+- Java JDK 8 or higher
+- Apache Tomcat 9 or higher
+- MySQL Database
+- Maven
 
-Database: MySQL (via JDBC)
+### Setup Instructions
 
-Server: Apache Tomcat
+1. **Clone the repository**
 
-📂 Project Structure
+   ```bash
+   git clone https://github.com/NITHISH-KUMAR-M-S/BankNest.git
+````
+
+2. **Create the database**
+
+   ```sql
+   CREATE DATABASE banknest_db;
+   ```
+
+3. **Update database credentials** in your DAO classes (if needed):
+
+   ```java
+   String url = "jdbc:mysql://localhost:3306/banknest_db";
+   String username = "root";
+   String password = "your_password";
+   ```
+
+4. **Build the project using Maven**
+
+   ```bash
+   mvn clean install
+   ```
+
+5. **Deploy the WAR file** to Apache Tomcat (`target/BankNest.war`).
+
+6. **Access the application**
+
+   ```
+   http://localhost:8080/BankNest/
+   ```
+
+---
+
+## 📂 Folder Structure
+
+```
 BankNest/
- ├── src/main/java/com/bank/controller/   # Servlets (Login, Signup, Deposit, Withdraw, etc.)
- ├── src/main/java/com/bank/model/        # DBConnection & DBInteraction
- ├── src/main/java/com/bank/DTO/          # Bank DTO class
- ├── src/main/webapp/                     # JSP & HTML pages
- │   ├── login.jsp, signup.jsp, dashboard.jsp, profile.jsp, transactions.jsp
- │   ├── WEB-INF/web.xml                   # Deployment descriptor
- │   └── lib/                              # MySQL connector & servlet jars
+├── src/main/java        # Java Servlets and Classes
+├── src/main/webapp     # JSP pages, CSS, JS
+├── pom.xml             # Maven configuration
+└── README.md           # Project documentation
+```
 
-🚀 Getting Started
-1️⃣ Clone the repo
-git clone https://github.com/NITHISH-KUMAR-M-S/BankNest.git
+## 📸 Screenshots
 
-2️⃣ Import Project
+### Code Page
+<img src="screenshots/code.png" alt="Code" width="600" height="400">
 
-Open Eclipse / IntelliJ
+### Home Page
+<img src="screenshots/home.png" alt="Home" width="600" height="400">
 
-Import as a Dynamic Web Project (Maven not required, libs already included)
+### Register Page
+<img src="screenshots/register.png" alt="Register" width="600" height="400">
 
-3️⃣ Setup Database
-CREATE DATABASE banknest;
-USE banknest;
+### Login Page
+<img src="screenshots/login.png" alt="Login" width="600" height="400">
 
--- Example table (adjust as per your schema)
-CREATE TABLE users (
-  id INT PRIMARY KEY AUTO_INCREMENT,
-  name VARCHAR(100),
-  email VARCHAR(100) UNIQUE,
-  password VARCHAR(100),
-  balance DECIMAL(10,2) DEFAULT 0
-);
-
-CREATE TABLE transactions (
-  id INT PRIMARY KEY AUTO_INCREMENT,
-  user_id INT,
-  type VARCHAR(20),
-  amount DECIMAL(10,2),
-  date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-);
+### Dashboard
+<img src="screenshots/dashboard.png" alt="Dashboard" width="600" height="400">
 
 
-Update your DB credentials in:
-src/main/java/com/bank/model/DBConnection.java
+---
 
-4️⃣ Run on Tomcat
+## 📝 License
 
-Deploy project to Apache Tomcat
+This project is open-source and free to use for learning purposes.
 
-Start server and access app at:
+```
 
-http://localhost:8080/BankNest
+---
 
-📚 Key Learnings
-
-Building dynamic JSP pages
-
-Secure session management
-
-Performing CRUD operations with JDBC
-
-Structuring projects with MVC architecture
-
-🤝 Acknowledgments
-
-Special thanks to Pentagon Space for guidance during my Java Full Stack training.
-
-📌 Tags
-
-Java JSP Servlets MVC MySQL Banking App Mini Project
+If you'd like, I can generate this as an actual `README.md` file for you to download and add to your project. Would you like me to do that?
+::contentReference[oaicite:0]{index=0}
+ 
+```

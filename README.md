@@ -79,35 +79,33 @@ BankNest/
 
 ## 📸 Screenshots
 
-<div style="display: flex; flex-wrap: wrap; gap: 15px;">
-
-  <div style="flex: 1 1 calc(33% - 10px);">
-    <img src="screenshots/code.png" alt="Code" style="width: 100%; height: auto;">
-    <p align="center"><b>Code Page</b></p>
-  </div>
-
-  <div style="flex: 1 1 calc(33% - 10px);">
-    <img src="screenshots/home.png" alt="Home" style="width: 100%; height: auto;">
-    <p align="center"><b>Home Page</b></p>
-  </div>
-
-  <div style="flex: 1 1 calc(33% - 10px);">
-    <img src="screenshots/register.png" alt="Register" style="width: 100%; height: auto;">
-    <p align="center"><b>Register Page</b></p>
-  </div>
-
-  <div style="flex: 1 1 calc(33% - 10px);">
-    <img src="screenshots/login.png" alt="Login" style="width: 100%; height: auto;">
-    <p align="center"><b>Login Page</b></p>
-  </div>
-
-  <div style="flex: 1 1 calc(33% - 10px);">
-    <img src="screenshots/dashboard.png" alt="Dashboard" style="width: 100%; height: auto;">
-    <p align="center"><b>Dashboard</b></p>
-  </div>
-
-</div>
-
+<table>
+  <tr>
+    <td align="center">
+      <img src="screenshots/code.png" alt="Code" width="300"><br>
+      <b>Code Page</b>
+    </td>
+    <td align="center">
+      <img src="screenshots/home.png" alt="Home" width="300"><br>
+      <b>Home Page</b>
+    </td>
+    <td align="center">
+      <img src="screenshots/register.png" alt="Register" width="300"><br>
+      <b>Register Page</b>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="screenshots/login.png" alt="Login" width="300"><br>
+      <b>Login Page</b>
+    </td>
+    <td align="center">
+      <img src="screenshots/dashboard.png" alt="Dashboard" width="300"><br>
+      <b>Dashboard</b>
+    </td>
+    <td></td>
+  </tr>
+</table>
 
 ---
 

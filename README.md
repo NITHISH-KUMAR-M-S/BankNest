@@ -35,10 +35,7 @@ BankNest is a basic banking web application built using Java (JSP, Servlets, JDB
 ### Setup Instructions
 
 1. **Clone the repository**
-
-   ```bash
    git clone https://github.com/NITHISH-KUMAR-M-S/BankNest.git
-````
 
 2. **Create the database**
 

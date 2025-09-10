@@ -94,6 +94,36 @@ BankNest/
 ### Dashboard
 <img src="screenshots/dashboard.png" alt="Dashboard" width="600" height="400">
 
+## 📸 Screenshots
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+
+  <div style="flex: 1 1 300px;">
+    <img src="screenshots/code.png" alt="Code" style="width: 100%; height: auto;">
+    <p align="center">Code Page</p>
+  </div>
+
+  <div style="flex: 1 1 300px;">
+    <img src="screenshots/home.png" alt="Home" style="width: 100%; height: auto;">
+    <p align="center">Home Page</p>
+  </div>
+
+  <div style="flex: 1 1 300px;">
+    <img src="screenshots/register.png" alt="Register" style="width: 100%; height: auto;">
+    <p align="center">Register Page</p>
+  </div>
+
+  <div style="flex: 1 1 300px;">
+    <img src="screenshots/login.png" alt="Login" style="width: 100%; height: auto;">
+    <p align="center">Login Page</p>
+  </div>
+
+  <div style="flex: 1 1 300px;">
+    <img src="screenshots/dashboard.png" alt="Dashboard" style="width: 100%; height: auto;">
+    <p align="center">Dashboard</p>
+  </div>
+
+</div>
 
 ---
 
